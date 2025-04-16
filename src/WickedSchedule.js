@@ -155,7 +155,9 @@ const WickedSchedule = () => {
     const loadData = async () => {
       try {
         // Load schedule data
-        const scheduleResponse = await fetch('/data/MGT 575 Final Project Schedule(Final Presentation Schedule).csv');
+        const scheduleResponse = await fetch(`${process.env.PUBLIC_URL}/data/MGT 575 Final Project Schedule(Final Presentation Schedule).csv`);
+
+        
         const scheduleText = await scheduleResponse.text();
         const scheduleLines = scheduleText.split('\n');
         
@@ -212,7 +214,7 @@ const WickedSchedule = () => {
         });
         
         // Load roster data
-        const rosterResponse = await fetch('/data/MGT 575 Final Project Schedule(Final Team Rosters).csv');
+        const rosterResponse = await fetch(`${process.env.PUBLIC_URL}//data/MGT 575 Final Project Schedule(Final Team Rosters).csv`);
         const rosterText = await rosterResponse.text();
         const rosterLines = rosterText.split('\n');
         
