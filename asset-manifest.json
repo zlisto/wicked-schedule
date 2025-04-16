@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/wicked-schedule/static/css/main.b3f7e93a.css",
-    "main.js": "/wicked-schedule/static/js/main.3581995d.js",
+    "main.js": "/wicked-schedule/static/js/main.3d29b75b.js",
     "index.html": "/wicked-schedule/index.html",
     "main.b3f7e93a.css.map": "/wicked-schedule/static/css/main.b3f7e93a.css.map",
-    "main.3581995d.js.map": "/wicked-schedule/static/js/main.3581995d.js.map"
+    "main.3d29b75b.js.map": "/wicked-schedule/static/js/main.3d29b75b.js.map"
   },
   "entrypoints": [
     "static/css/main.b3f7e93a.css",
-    "static/js/main.3581995d.js"
+    "static/js/main.3d29b75b.js"
   ]
 }
