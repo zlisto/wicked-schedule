@@ -214,7 +214,7 @@ const WickedSchedule = () => {
         });
         
         // Load roster data
-        const rosterResponse = await fetch(`${process.env.PUBLIC_URL}//data/MGT 575 Final Project Schedule(Final Team Rosters).csv`);
+        const rosterResponse = await fetch(`${process.env.PUBLIC_URL}/data/MGT 575 Final Project Schedule(Final Team Rosters).csv`);
         const rosterText = await rosterResponse.text();
         const rosterLines = rosterText.split('\n');
         
