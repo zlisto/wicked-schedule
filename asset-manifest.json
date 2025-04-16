@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wicked-schedule/static/css/main.b3f7e93a.css",
+    "main.js": "/wicked-schedule/static/js/main.fe5be2d9.js",
+    "index.html": "/wicked-schedule/index.html",
+    "main.b3f7e93a.css.map": "/wicked-schedule/static/css/main.b3f7e93a.css.map",
+    "main.fe5be2d9.js.map": "/wicked-schedule/static/js/main.fe5be2d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3f7e93a.css",
+    "static/js/main.fe5be2d9.js"
+  ]
+}
